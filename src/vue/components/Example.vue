@@ -2,8 +2,6 @@
 import { ref } from 'vue'
 import { Plus } from 'lucide-vue-next'
 
-defineProps<{ msg: string }>()
-
 const count = ref(0)
 </script>
 
